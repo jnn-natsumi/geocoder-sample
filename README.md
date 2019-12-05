@@ -1,22 +1,3 @@
-# GeoCodingのプロ
-!!これから何の話をするのか示す
-GeoCoding（ジオコーディング）とは、xxxxのことを指します。
-
-# GeoCondingの使い所
-!!様々な場面で使用してる例を出し、用途を示す。
-
-住所から経度緯度を算出して、地図を表示する。
-現在地や特定の場所に近いスポットを取得する。
-場所間の距離を算出する。
-居場所共有アプリ
-飲食店共有
-
-# GemのGeoCoder
-!!使い方を示すRailsで。
-
-今回はRails環境で、GemのGeocoderを使用してGeocodingを行います。
-基本的な使い方と要所を示していきます。
-
 # 基本
 Geocoderの基本例は次のとおりです。
 地名や住所を引数にして、経度緯度を返り値として取得できます。
@@ -158,7 +139,6 @@ Geocoder.configure(
 ```
 
 googleのgeocoding APIを使用する場合は次のように設定します。
-
 ```ruby:geocoder.rb
 Geocoder.configure(
   lookup: :google, 
